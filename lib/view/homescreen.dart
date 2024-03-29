@@ -59,13 +59,15 @@ class _HomeScreenState extends State<HomeScreen> {
             return Stack(children: [
               Container(
                 child: Column(
+
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Image.asset(
+                    Image.asset
+                    (
                       AppImage.gridviewimage[index],
                       scale: 2,
-                      height: 220.h,
+                      height: 200.h,
                     ),
                     Text(
                       AppText.homepagecomontxt[index],

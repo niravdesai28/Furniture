@@ -120,7 +120,7 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
                 yourhinttext: '',
                 yourlabletext: '',
               )),
-              button: 'Add all to my cart',
+              button: 'Add to all my cart',
             ),
           ),
         ],
