@@ -33,12 +33,13 @@ class _SignUpScreenState extends State<SignUpScreen> {
         headers: {
           'Content-Type': 'application/json; charset=UTF-8',
         },
-        body: jsonEncode({
-          'name': name,
-          'email': email,
-          'password': password,
-          'confirmPassword': password,
-        }),
+        body: jsonEncode
+        (
+        { 
+              
+        }
+      ),
+     
       );
 
       log(response.statusCode.toString());
